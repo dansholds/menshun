@@ -2,6 +2,8 @@
 
 ![menshun](https://github.com/dansholds/menshun/assets/25537601/d97368ed-91e0-43d1-82d7-6b7c8301ecf3)
 
+**NOTE**: I still need to fine-tune the rate limiting, I don't do exponential back offs as it doesn't seem like its needed so if we hit a rate limit it will pause for 30 seconds and go again. Feel free to submit a PR to improve it!
+
 A super cool Python script to monitor Reddit posts and comments for specified keywords using the PRAW (Python Reddit API Wrapper) and Aho-Corasick algorithm for efficient keyword matching. The script also provides aesthetic output using the Rich library.
 
 Shout out to https://f5bot.com for the inspiration especially when using Aho-Corasick!
