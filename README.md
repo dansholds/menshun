@@ -77,7 +77,7 @@ This project monitors Reddit for keywords in new submissions and comments in rea
 2. **Example command:**
 
     ```bash
-    python menshun.py --keywords python programming reddit #(don't actually use reddit as a keyword unless you want your terminal slammed with crap lol)
+    python3 menshun.py --keywords python programming reddit #(don't actually use reddit as a keyword unless you want your terminal slammed with crap lol)
     ```
 
 3. **Graceful shutdown:**
@@ -105,4 +105,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or suggestions, please contact:
 
 - GitHub: [dansholds](https://github.com/dansholds)
-- X: https://x.com/0xT33m0
+- X: https://x.com/grapplingdev
